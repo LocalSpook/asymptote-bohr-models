@@ -7,7 +7,7 @@ void DrawBohrModel(
     ) {
 
     // Sort the electrons into shells
-    // For convenience, the number of electrons in shell N is stored at sortedElectrons[N]
+    // For convenience, the number of electrons in shell X is stored at sortedElectrons[X]
     int[] sortedElectrons;
     int max_electrons_in_current_shell;
     for (int i = 1;; ++i) {
