@@ -5,6 +5,8 @@ void DrawBohrModel(
     pen electron_color=currentpen,
     pen atom_label_color=currentpen
     ) {
+    
+    assert(electrons_to_sort > 0, "The number of electrons must be a positive integer!");
 
     // Sort the electrons into shells
     // For convenience, the number of electrons in shell X is stored at sortedElectrons[X]
